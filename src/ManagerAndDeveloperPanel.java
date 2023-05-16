@@ -19,13 +19,12 @@ public class ManagerAndDeveloperPanel extends JPanel implements ActionListener {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
         developers = new Developer[2];
-        developers[0] = new Developer(new Point(100, 100), 2, 10);
+        developers[0] = new Developer(new Point(100, 100), 2, 8);
         developers[1] = new Developer(new Point(200, 300), 1, 10);
 
         managers = new Manager[2];
         managers[0] = new Manager(new Point(400, 200), 50, 10);
-        managers[1] = new Manager(new Point(200, 200), 35, 10);
-
+        managers[1] = new Manager(new Point(200, 200), 35, 15);
         JPanel buttonPanel = new JPanel(new FlowLayout());
         buttonPanel.setBackground(Color.GRAY);
 
